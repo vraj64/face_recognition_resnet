@@ -117,7 +117,7 @@ class Face_Recognizer:
 
 
     def draw_note(self, img_rd):
-        # 添加说明 / Add some statements
+        
         cv2.putText(img_rd, "Face recognizer with OT", (20, 40), self.font, 1, (255, 255, 255), 1, cv2.LINE_AA)
         cv2.putText(img_rd, "FPS:    " + str(self.fps.__round__(2)), (20, 100), self.font, 0.8, (0, 255, 0), 1,
                     cv2.LINE_AA)
